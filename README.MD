@@ -1,6 +1,6 @@
 ## Node.js – JWT Authentication example with PostgreSQL example
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
