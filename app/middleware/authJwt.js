@@ -89,7 +89,7 @@ isModeratorOrAdmin = (req, res, next) => {
 };
 
 const authJwt = {
-    verifyToken: verifySignUp,
+    verifyToken: verifyToken,
     isAdmin: isAdmin,
     isModerator: isModerator,
     isModeratorOrAdmin: isModeratorOrAdmin

@@ -28,6 +28,9 @@ app.get('/', (req, res) => {
     res.json({message: 'Welcome to nodeJS with JWT application.'});
 })
 
+// routes
+require('./app/routes/auth.routes')(app);
+
 // set port, listen for requests
 const port = process.env.PORT || 8000;
 
